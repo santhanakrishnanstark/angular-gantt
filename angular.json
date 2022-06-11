@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/jquery-ui/themes/base/all.css",
+              "src/assets/gantt/jquery.ganttView.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/datejs-coolite/build/date.js",
+              "node_modules/jquery-ui/external/requirejs/require.js",
+              "src/assets/gantt/jquery.ganttView.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
